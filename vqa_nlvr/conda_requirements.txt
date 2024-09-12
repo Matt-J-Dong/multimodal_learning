@@ -1,0 +1,76 @@
+# packages in environment at /scratch/mjd9571/conda/envs_dirs/multimodal_env:
+#
+# Name                    Version                   Build  Channel
+_libgcc_mutex             0.1                 conda_forge    conda-forge
+_openmp_mutex             4.5                       2_gnu    conda-forge
+appdirs                   1.4.4              pyh9f0ad1d_0    conda-forge
+blas                      1.0                         mkl  
+brotli-python             1.0.9           py310hd8f1fbe_7    conda-forge
+bzip2                     1.0.8                h5eee18b_6  
+ca-certificates           2024.7.4             hbcca054_0    conda-forge
+certifi                   2024.7.4        py310h06a4308_0  
+cffi                      1.16.0          py310h2fee648_0    conda-forge
+charset-normalizer        3.3.2              pyhd8ed1ab_0    conda-forge
+click                     8.1.7           unix_pyh707e725_0    conda-forge
+cycler                    0.11.0             pyhd3eb1b0_0  
+docker-pycreds            0.4.0                      py_0    conda-forge
+filelock                  3.13.1          py310h06a4308_0  
+gitdb                     4.0.11             pyhd8ed1ab_0    conda-forge
+gitpython                 3.1.43             pyhd8ed1ab_0    conda-forge
+h2                        4.1.0              pyhd8ed1ab_0    conda-forge
+hpack                     4.0.0              pyh9f0ad1d_0    conda-forge
+hyperframe                6.0.1              pyhd8ed1ab_0    conda-forge
+idna                      3.7             py310h06a4308_0  
+intel-openmp              2023.1.0         hdb19cb5_46306  
+kiwisolver                1.4.4           py310h6a678d5_0  
+ld_impl_linux-64          2.38                 h1181459_1  
+libffi                    3.4.4                h6a678d5_1  
+libgcc-ng                 14.1.0               h77fa898_0    conda-forge
+libgomp                   14.1.0               h77fa898_0    conda-forge
+libprotobuf               3.20.1               h4ff587b_0  
+libstdcxx-ng              11.2.0               h1234567_1  
+libuuid                   1.41.5               h5eee18b_0  
+lz4-c                     1.9.4                h6a678d5_1  
+mkl                       2023.1.0         h213fc3f_46344  
+mkl-service               2.4.0           py310h5eee18b_1  
+mkl_fft                   1.3.8           py310h5eee18b_0  
+mkl_random                1.2.4           py310hdb19cb5_0  
+ncurses                   6.4                  h6a678d5_0  
+numpy                     1.26.4          py310h5f9d8c6_0  
+numpy-base                1.26.4          py310hb5e798b_0  
+openssl                   3.3.1                h4bc722e_2    conda-forge
+packaging                 24.1            py310h06a4308_0  
+pathtools                 0.1.2                      py_1    conda-forge
+pip                       24.0            py310h06a4308_0  
+platformdirs              4.2.2                    pypi_0    pypi
+protobuf                  3.20.1          py310hd8f1fbe_0    conda-forge
+psutil                    6.0.0           py310hc51659f_0    conda-forge
+py-cpuinfo                9.0.0           py310h06a4308_0  
+pycparser                 2.22               pyhd8ed1ab_0    conda-forge
+pyparsing                 3.0.9           py310h06a4308_0  
+pysocks                   1.7.1              pyha2e5f31_6    conda-forge
+python                    3.10.14              h955ad1f_1  
+python-dateutil           2.9.0post0      py310h06a4308_2  
+python_abi                3.10                    2_cp310    conda-forge
+pytz                      2024.1          py310h06a4308_0  
+pyyaml                    6.0.1           py310h2372a71_1    conda-forge
+readline                  8.2                  h5eee18b_0  
+requests                  2.32.3             pyhd8ed1ab_0    conda-forge
+sentry-sdk                2.12.0             pyhd8ed1ab_0    conda-forge
+setproctitle              1.3.3           py310h2372a71_0    conda-forge
+setuptools                69.5.1          py310h06a4308_0  
+six                       1.16.0             pyhd3eb1b0_1  
+smmap                     5.0.0              pyhd8ed1ab_0    conda-forge
+sqlite                    3.45.3               h5eee18b_0  
+tbb                       2021.8.0             hdb19cb5_0  
+tk                        8.6.14               h39e8969_0  
+typing_extensions         4.12.2             pyha770c72_0    conda-forge
+tzdata                    2024a                h04d1e81_0  
+urllib3                   2.2.2              pyhd8ed1ab_1    conda-forge
+wandb                     0.16.6             pyhd8ed1ab_0    conda-forge
+wheel                     0.43.0          py310h06a4308_0  
+xz                        5.4.6                h5eee18b_1  
+yaml                      0.2.5                h7f98852_2    conda-forge
+zlib                      1.2.13               h5eee18b_1  
+zstandard                 0.22.0          py310h1275a96_0    conda-forge
+zstd                      1.5.5                hc292b87_2  
