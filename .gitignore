@@ -8,3 +8,4 @@ data/
 *arrows.zip
 *.arrow
 *.ckpt
+*.sbatch
