@@ -1,0 +1,17 @@
+/scratch/mjd9571/multimodal_learning/vqa_nlvr
+total 3400711
+drwxr-sr-x.  4 mjd9571 mjd9571       4096 Jun 27 15:04 datasets
+-rw-r--r--.  1 mjd9571 mjd9571         46 Jul 16 20:31 dummy.out
+-rw-r--r--.  1 mjd9571 mjd9571        333 Jul 16 20:30 dummy.sbatch
+-rw-r--r--.  1 mjd9571 mjd9571         72 Jul 16 20:20 dummy_test.py
+drwxr-sr-x.  9 mjd9571 mjd9571       4096 Jun 27 15:16 fiber
+-rw-r--r--.  1 mjd9571 mjd9571 1141502163 Jun  9  2022 fiber_pretrain.ckpt
+drwxr-sr-x.  3 mjd9571 mjd9571       4096 Jun 27 15:10 inter_and_intra_modality
+-rw-r--r--.  1 mjd9571 mjd9571        338 Jul 16 20:29 nlvr.sbatch
+-rw-r--r--.  1 mjd9571 mjd9571       1345 Jun 25 00:01 README.md
+-rw-r--r--.  1 mjd9571 mjd9571       2399 Jun 27 15:09 run.py
+-rwxr-xr-x.  1 mjd9571 mjd9571        266 Jul 16 19:16 test_nlvr.sh
+-rwxr-xr-x.  1 mjd9571 mjd9571        279 Jul 16 20:21 test.sh
+-rwxr-xr-x.  1 mjd9571 mjd9571        266 Jun 27 15:15 test_vqa.sh
+-rw-r--r--.  1 mjd9571 mjd9571 2340796239 Jun 27 14:47 VQAv2_arrows.zip
+drwxr-sr-x. 20 mjd9571 mjd9571       4096 Jul 16 20:23 wandb

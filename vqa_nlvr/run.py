@@ -47,12 +47,10 @@ def main(_config):
         wandb_logger = pl.loggers.WandbLogger(name=f"{_config['exp_name']}-{_config['learning_rate']}", project='multimodal_vqa')
         loggers = [csv_logger, wandb_logger] 
 
-    model.freeze()
     task = _config["exp_name"]
     if "vqa" in task:
+        model.freeze()
         model.vqa_classifier.requires_grad_(True)
-    else:
-        raise ValueError
 
     lr_callback = pl.callbacks.LearningRateMonitor(logging_interval="step")
     callbacks = [checkpoint_callback, lr_callback]

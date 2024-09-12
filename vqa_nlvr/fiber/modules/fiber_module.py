@@ -318,7 +318,8 @@ class FIBERTransformerSS(pl.LightningModule):
                     imgkey = f"image_{image_token_type_idx - 1}"
                 else:
                     imgkey = "image"
-                img = batch["image"][0]
+                #print(batch) #img_0
+                img = batch[imgkey][0]
 
         if not image_only:
             do_mlm = "_mlm" if mask_text else ""

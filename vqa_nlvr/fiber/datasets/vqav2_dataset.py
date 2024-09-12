@@ -7,11 +7,11 @@ class VQAv2Dataset(BaseDataset):
         self.split = split
 
         if split == "train":
-            names = ["vqavs_train"]
+            names = ["vqav2_train"]
         elif split == "val":
-            names = ["vqavs_val"]
+            names = ["vqav2_val"]
         elif split == "test":
-          names = ["vqavs_qt"]
+          names = ["vqav2_test"]
 
         super().__init__(
             *args,
