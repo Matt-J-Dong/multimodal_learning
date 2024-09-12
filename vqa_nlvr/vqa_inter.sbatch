@@ -11,6 +11,8 @@
 #SBATCH --mail-user=matthew.dong@nyu.edu
 #SBATCH --mail-type=FAIL
 
+export $(grep -v '^#' .env | xargs)
+
 singularity exec --nv --overlay $SCRATCH/new_env/overlay-50G-10M.ext3:ro /scratch/work/public/singularity/cuda11.8.86-cudnn8.7-devel-ubuntu22.04.2.sif /bin/bash -c "
 source /ext3/miniconda3/etc/profile.d/conda.sh
 conda activate
@@ -19,7 +21,7 @@ pwd
 env_list=$(conda env list)
 echo "$env_list"
 nvidia-smi
-WANDB_API_KEY = "01a7f15f8823bf8acd4bf2863f0e3fd89e05b212"
+WANDB_API_KEY = $WANDB_API_KEY
 export WANDB_API_KEY
 echo $WANDB_API_KEY | wandb login --relogin
 ./vqa_inter.sh

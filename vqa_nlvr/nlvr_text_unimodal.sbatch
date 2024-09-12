@@ -19,7 +19,7 @@ pwd
 env_list=$(conda env list)
 echo "$env_list"
 nvidia-smi
-WANDB_API_KEY = "01a7f15f8823bf8acd4bf2863f0e3fd89e05b212"
+WANDB_API_KEY = $WANDB_API_KEY
 export WANDB_API_KEY
 echo $WANDB_API_KEY | wandb login --relogin
 ./nlvr_text_unimodal.sh
