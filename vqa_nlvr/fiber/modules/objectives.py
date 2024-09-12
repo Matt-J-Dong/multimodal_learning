@@ -98,6 +98,8 @@ def compute_vqa(pl_module, batch):
 
 
 def compute_nlvr2(pl_module, batch):
+    #Referenced before assignment error
+    nlvr2_logits_image, nlvr2_logits_text, nlvr2_logits_cat = None, None, None
     if "inter_modality" in pl_module.exp_name:
         embeds1 = pl_module.infer(batch, image_token_type_idx=1)
         embeds2 = pl_module.infer(batch, image_token_type_idx=2)
@@ -152,7 +154,9 @@ def compute_nlvr2(pl_module, batch):
 
     if phase == "train":
         loss = getattr(pl_module, f"{phase}_nlvr2_loss")(ret["nlvr2_loss"])
-        acc = getattr(pl_module, f"{phase}_nlvr2_accuracy")(ret["nlvr2_logits"], ret["nlvr2_labels"])
+        acc = getattr(pl_module, f"{phase}_nlvr2_accuracy")(ret["nlvr2_logits"], ret["nlvr2_labels"]) 
+        print(f"Loss: {loss}")
+        print(f"Accuracy: {acc}")
         pl_module.log(f"nlvr2/{phase}/loss", loss)
         pl_module.log(f"nlvr2/{phase}/accuracy", acc)
     else:

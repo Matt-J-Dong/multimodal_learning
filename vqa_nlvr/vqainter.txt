@@ -719,3 +719,524 @@ Epoch 6, global step 5950: 'val/the_metric' reached 0.61587 (best 0.61587), savi
   offset = -low * scale
 /scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
   offset = -low * scale
+Epoch 7, global step 6800: 'val/the_metric' reached 0.62126 (best 0.62126), saving model to './inter_and_intra_modality/best_epoch=07-val/the_metric=0.62.ckpt' as top 1
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+Epoch 8, global step 7650: 'val/the_metric' reached 0.62500 (best 0.62500), saving model to './inter_and_intra_modality/best_epoch=08-val/the_metric=0.63.ckpt' as top 1
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+Epoch 9, global step 8500: 'val/the_metric' reached 0.62851 (best 0.62851), saving model to './inter_and_intra_modality/best_epoch=09-val/the_metric=0.63.ckpt' as top 1
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+Epoch 10, global step 9350: 'val/the_metric' reached 0.63226 (best 0.63226), saving model to './inter_and_intra_modality/best_epoch=10-val/the_metric=0.63.ckpt' as top 1
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+Epoch 11, global step 10200: 'val/the_metric' reached 0.63607 (best 0.63607), saving model to './inter_and_intra_modality/best_epoch=11-val/the_metric=0.64.ckpt' as top 1
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+Epoch 12, global step 11050: 'val/the_metric' was not in top 1
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+Epoch 13, global step 11900: 'val/the_metric' reached 0.63963 (best 0.63963), saving model to './inter_and_intra_modality/best_epoch=13-val/the_metric=0.64.ckpt' as top 1
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+Epoch 14, global step 12750: 'val/the_metric' reached 0.64260 (best 0.64260), saving model to './inter_and_intra_modality/best_epoch=14-val/the_metric=0.64.ckpt' as top 1
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/transforms/randaug.py:34: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+slurmstepd: error: *** JOB 48688412 ON gr007 CANCELLED AT 2024-07-20T10:51:17 ***

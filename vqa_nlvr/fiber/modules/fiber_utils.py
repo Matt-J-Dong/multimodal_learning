@@ -43,7 +43,7 @@ def epoch_wrapup(pl_module):
             continue
 
         value = 0
-
+        print(f"Loss Name:{loss_name}")
         if loss_name == "vqa":
             value = getattr(pl_module, f"{phase}_{loss_name}_score").compute()
             pl_module.log(f"{loss_name}/{phase}/score_epoch", value)
@@ -56,6 +56,7 @@ def epoch_wrapup(pl_module):
         elif loss_name == "nlvr2":
             # if phase == "train":
                 value = getattr(pl_module, f"{phase}_{loss_name}_accuracy").compute()
+                print(f"Value: {value}")
                 pl_module.log(f"{loss_name}/{phase}/accuracy_epoch", value)
                 getattr(pl_module, f"{phase}_{loss_name}_accuracy").reset()
                 pl_module.log(

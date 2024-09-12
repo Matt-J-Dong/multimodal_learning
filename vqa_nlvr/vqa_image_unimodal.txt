@@ -1,0 +1,11 @@
+/opt/slurm/data/slurmd/job49048573/slurm_script: line 14: conda: command not found
+/bin/bash: line 9: WANDB_API_KEY: command not found
+/bin/bash: line 11: wandb: command not found
+/usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.1build1 is an invalid version and will not be supported in a future release
+  warnings.warn(
+/usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.1build1 is an invalid version and will not be supported in a future release
+  warnings.warn(
+sacred.utils.ConfigAddedError: Added new config entry that is not used anywhere
+Conflicting configuration values:
+  checkpoint_path=./vqa_image_unimodal/last.ckpt
+

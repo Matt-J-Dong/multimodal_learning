@@ -473,6 +473,12 @@ class FIBERTransformerSS(pl.LightningModule):
         fiber_utils.set_task(self)
         output = self(batch)
         total_loss = sum([v for k, v in output.items() if "loss" in k])
+        #Assuming 'val/the_metric' is calculated here or as a part of the output   
+        #metric_value = self.some_metric_calculation(output, batch)
+
+        # Log or print the metric
+        self.log("val/the_metric", total_loss)
+        print(f"Batch {batch_idx} - val/the_metric: {total_loss}")
 
         return total_loss
 
@@ -482,6 +488,7 @@ class FIBERTransformerSS(pl.LightningModule):
     def validation_step(self, batch, batch_idx):
         fiber_utils.set_task(self)
         output = self(batch)
+        
 
     def validation_epoch_end(self, outs):
         fiber_utils.epoch_wrapup(self)

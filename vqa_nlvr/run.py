@@ -72,7 +72,8 @@ def main(_config):
         logger=loggers,
         replace_sampler_ddp=False,
         accumulate_grad_batches=grad_steps,
-        log_every_n_steps=10,
+        log_every_n_steps=10
+        
     )
 
     if not _config["test_only"]:

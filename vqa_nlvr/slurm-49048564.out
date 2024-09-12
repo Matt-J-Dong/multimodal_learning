@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/scratch/mjd9571/multimodal_learning/vqa_nlvr/run.py", line 3, in <module>
+    import pytorch_lightning as pl
+ModuleNotFoundError: No module named 'pytorch_lightning'
