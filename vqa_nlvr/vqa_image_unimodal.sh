@@ -9,6 +9,7 @@ python3 vqa_image_unimodal_run.py with \
   per_gpu_batchsize=16 \
   max_epoch=100 \
   learning_rate=1e-4 \
-  load_path=fiber_pretrain.ckpt
+  load_path=fiber_pretrain.ckpt \
+  test_only = True
   #load_path=fiber_pretrain.ckpt \
   #checkpoint_path=./vqa_image_unimodal/last.ckpt

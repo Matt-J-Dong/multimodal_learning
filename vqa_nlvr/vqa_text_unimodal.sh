@@ -9,5 +9,6 @@ python3 vqa_text_unimodal_run.py with \
   per_gpu_batchsize=16 \
   max_epoch=100 \
   learning_rate=1e-4 \
-  load_path=fiber_pretrain.ckpt #\
+  load_path=fiber_pretrain.ckpt \
+  test_only = True
   #checkpoint_path=./vqa_text_unimodal/last.ckpt

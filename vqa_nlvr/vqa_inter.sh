@@ -9,7 +9,8 @@ python3 vqa_inter_run.py with \
   per_gpu_batchsize=16 \
   max_epoch=100 \
   learning_rate=1e-4 \
-  load_path=fiber_pretrain.ckpt
+  load_path=fiber_pretrain.ckpt \
+  text_only = True
   #load_path=./vqa_inter_modality/best_epoch=16-val/the_metric=0.64.ckpt
   #checkpoint_path=./vqa_inter_modality/best_epoch=16-val/the_metric=0.64.ckpt
   

@@ -5,9 +5,9 @@
 #SBATCH --gres=gpu:rtx8000:4
 #SBATCH --time=48:00:00
 #SBATCH --mem=128GB
-#SBATCH --job-name=vqa_inter
-#SBATCH --output=vqa_inter.out
-#SBATCH --error=vqa_inter.txt
+#SBATCH --job-name=vqa_inter_test
+#SBATCH --output=vqa_inter_test.out
+#SBATCH --error=vqa_inter_test.txt
 #SBATCH --mail-user=matthew.dong@nyu.edu
 #SBATCH --mail-type=FAIL
 

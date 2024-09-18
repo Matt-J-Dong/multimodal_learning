@@ -5,9 +5,9 @@
 #SBATCH --gres=gpu:rtx8000:4
 #SBATCH --time=48:00:00
 #SBATCH --mem=128GB
-#SBATCH --job-name=vqa_image_unimodal
-#SBATCH --output=vqa_image_unimodal.out
-#SBATCH --error=vqa_image_unimodal-error.txt
+#SBATCH --job-name=vqa_image_unimodal_test
+#SBATCH --output=vqa_image_unimodal_test.out
+#SBATCH --error=vqa_image_unimodal_test-error.txt
 #SBATCH --mail-user=matthew.dong@nyu.edu
 #SBATCH --mail-type=FAIL
 
