@@ -80,4 +80,4 @@ def main(_config):
         # automatically restores model, epoch, step, LR schedulers, etc...
         trainer.fit(model, datamodule=dm, ckpt_path="./vqa_text_unimodal/best_epoch=57-val/the_metric=0.44.ckpt")
     else:
-        trainer.test(model, datamodule=dmlklk nlknlknlknl)
+        trainer.test(model, datamodule=dm)
