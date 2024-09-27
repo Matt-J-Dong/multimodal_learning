@@ -10,4 +10,5 @@ python3 run.py with \
   max_epoch=100 \
   learning_rate=1e-4 \
   load_path=fiber_pretrain.ckpt \
+  limit_train_batches = 0.01
   #checkpoint_path=./nlvr_text_unimodal/last.ckpt

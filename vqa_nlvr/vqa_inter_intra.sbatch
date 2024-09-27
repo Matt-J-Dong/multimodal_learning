@@ -2,7 +2,7 @@
 #SBATCH --nodes=1                        # requests 1 compute server
 #SBATCH --ntasks-per-node=1              # runs 1 tasks on each server
 #SBATCH --cpus-per-task=4                # uses 4 compute cores per task
-#SBATCH --gres=gpu:rtx8000:4
+#SBATCH --gres=gpu:4
 #SBATCH --time=48:00:00
 #SBATCH --mem=128GB
 #SBATCH --job-name=vqa_inter_intra_test
@@ -19,6 +19,7 @@ pwd
 env_list=$(conda env list)
 echo "$env_list"
 nvidia-smi
+source .env
 WANDB_API_KEY = $WANDB_API_KEY
 export WANDB_API_KEY
 echo $WANDB_API_KEY | wandb login --relogin

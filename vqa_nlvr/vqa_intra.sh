@@ -10,7 +10,7 @@ python3 vqa_intra_run.py with \
   max_epoch=100 \
   learning_rate=1e-4 \
   load_path=fiber_pretrain.ckpt \
-  test_only = True
+  test_only=True
   #load_path=./vqa_inter_modality/best_epoch=16-val/the_metric=0.64.ckpt
   #checkpoint_path=./vqa_inter_modality/best_epoch=16-val/the_metric=0.64.ckpt
   

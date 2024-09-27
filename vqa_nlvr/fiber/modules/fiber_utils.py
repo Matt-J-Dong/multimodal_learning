@@ -37,7 +37,8 @@ def set_metrics(pl_module):
 def epoch_wrapup(pl_module):
     phase = "train" if pl_module.training else "val"
     the_metric = 0
-
+    debug = pl_module.hparams.config["loss_names"].items()
+    print(f"Items in PL Module: {debug}")
     for loss_name, v in pl_module.hparams.config["loss_names"].items():
         if v <= 0:
             continue

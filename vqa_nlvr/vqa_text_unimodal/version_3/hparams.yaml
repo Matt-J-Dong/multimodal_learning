@@ -20,7 +20,7 @@ config:
   input_text_embed_size: 768
   itc_pooler: true
   learning_rate: 0.0001
-  load_path: fiber_pretrain.ckpt
+  load_path: ./vqa_text_unimodal/best_epoch=57-val/the_metric=0.44.ckpt
   log_dir: ./vqa_text_unimodal/
   loss_names:
     caption_cider: 0
@@ -51,7 +51,7 @@ config:
   resolution_before: 384
   resume_from: null
   seed: 3
-  test_only: false
+  test_only: true
   tokenizer: roberta-base
   train_transform_keys:
   - albef_randaug

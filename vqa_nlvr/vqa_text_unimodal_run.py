@@ -72,13 +72,12 @@ def main(_config):
         logger=loggers,
         replace_sampler_ddp=False,
         accumulate_grad_batches=grad_steps,
-        log_every_n_steps=10,
-        #resume_from_checkpoint=_config['checkpoint_path'] #Added in to resume from a checkpoint
+        log_every_n_steps=10
     )
 
     if not _config["test_only"]:
         #trainer.fit(model, datamodule=dm)
         # automatically restores model, epoch, step, LR schedulers, etc...
-        trainer.fit(model, datamodule=dm, ckpt_path="./vqa_text_unimodal/best_epoch=33-val/the_metric=0.44.ckpt")
+        trainer.fit(model, datamodule=dm, ckpt_path="./vqa_text_unimodal/best_epoch=57-val/the_metric=0.44.ckpt")
     else:
-        trainer.test(model, datamodule=dm)
+        trainer.test(model, datamodule=dmlklk nlknlknlknl)

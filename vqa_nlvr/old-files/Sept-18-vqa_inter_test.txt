@@ -1,0 +1,9 @@
+/opt/slurm/data/slurmd/job51105664/slurm_script: line 14: export: `=': not a valid identifier
+/opt/slurm/data/slurmd/job51105664/slurm_script: line 14: export: `01a7f15f8823bf8acd4bf2863f0e3fd89e05b212': not a valid identifier
+/opt/slurm/data/slurmd/job51105664/slurm_script: line 16: conda: command not found
+.env: line 1: WANDB_API_KEY: command not found
+/bin/bash: line 10: WANDB_API_KEY: command not found
+wandb: ERROR Find detailed error logs at: /scratch/mjd9571/multimodal_learning/vqa_nlvr/wandb/debug-cli.mjd9571.log
+Error: api_key not configured (no-tty). call wandb login [your_api_key]
+sacred.utils.NamedConfigNotFoundError: Named config not found: "text_only". Available config values are: ('task_inter_modality_nlvr2', 'task_inter_and_intra_multimodal_nlvr2', 'task_intra_modality_nlvr2', 'task_image_unimodal_nlvr2', 'task_text_unimodal_nlvr2', 'task_inter_modality_vqa', 'task_inter_and_intra_multimodal_vqa', 'task_intra_modality_vqa', 'task_image_unimodal_vqa', 'task_text_unimodal_vqa')
+

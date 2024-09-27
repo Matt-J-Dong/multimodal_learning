@@ -1,0 +1,101 @@
+.env: line 1: WANDB_API_KEY: command not found
+wandb: ERROR Find detailed error logs at: /scratch/mjd9571/multimodal_learning/vqa_nlvr/wandb/debug-cli.mjd9571.log
+Error: api_key not configured (no-tty). call wandb login [your_api_key]
+WARNING - root - Changed type of config entry "max_steps" from int to NoneType
+WARNING - FIBER - No observers have been added to this run
+INFO - FIBER - Running command 'main'
+INFO - FIBER - Started
+Global seed set to 3
+/home/mjd9571/.local/lib/python3.10/site-packages/torch/functional.py:504: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at ../aten/src/ATen/native/TensorShape.cpp:3483.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+Some weights of RobertaModel were not initialized from the model checkpoint at roberta-base and are newly initialized: ['roberta.encoder.layer.0.alpha_t2i', 'roberta.encoder.layer.1.alpha_t2i', 'roberta.encoder.layer.10.alpha_t2i', 'roberta.encoder.layer.10.crossattention_t2i.output.LayerNorm.bias', 'roberta.encoder.layer.10.crossattention_t2i.output.LayerNorm.weight', 'roberta.encoder.layer.10.crossattention_t2i.output.dense.bias', 'roberta.encoder.layer.10.crossattention_t2i.output.dense.weight', 'roberta.encoder.layer.10.crossattention_t2i.self.key.bias', 'roberta.encoder.layer.10.crossattention_t2i.self.key.weight', 'roberta.encoder.layer.10.crossattention_t2i.self.query.bias', 'roberta.encoder.layer.10.crossattention_t2i.self.query.weight', 'roberta.encoder.layer.10.crossattention_t2i.self.value.bias', 'roberta.encoder.layer.10.crossattention_t2i.self.value.weight', 'roberta.encoder.layer.11.alpha_t2i', 'roberta.encoder.layer.11.crossattention_t2i.output.LayerNorm.bias', 'roberta.encoder.layer.11.crossattention_t2i.output.LayerNorm.weight', 'roberta.encoder.layer.11.crossattention_t2i.output.dense.bias', 'roberta.encoder.layer.11.crossattention_t2i.output.dense.weight', 'roberta.encoder.layer.11.crossattention_t2i.self.key.bias', 'roberta.encoder.layer.11.crossattention_t2i.self.key.weight', 'roberta.encoder.layer.11.crossattention_t2i.self.query.bias', 'roberta.encoder.layer.11.crossattention_t2i.self.query.weight', 'roberta.encoder.layer.11.crossattention_t2i.self.value.bias', 'roberta.encoder.layer.11.crossattention_t2i.self.value.weight', 'roberta.encoder.layer.2.alpha_t2i', 'roberta.encoder.layer.3.alpha_t2i', 'roberta.encoder.layer.4.alpha_t2i', 'roberta.encoder.layer.5.alpha_t2i', 'roberta.encoder.layer.6.alpha_t2i', 'roberta.encoder.layer.6.crossattention_t2i.output.LayerNorm.bias', 'roberta.encoder.layer.6.crossattention_t2i.output.LayerNorm.weight', 'roberta.encoder.layer.6.crossattention_t2i.output.dense.bias', 'roberta.encoder.layer.6.crossattention_t2i.output.dense.weight', 'roberta.encoder.layer.6.crossattention_t2i.self.key.bias', 'roberta.encoder.layer.6.crossattention_t2i.self.key.weight', 'roberta.encoder.layer.6.crossattention_t2i.self.query.bias', 'roberta.encoder.layer.6.crossattention_t2i.self.query.weight', 'roberta.encoder.layer.6.crossattention_t2i.self.value.bias', 'roberta.encoder.layer.6.crossattention_t2i.self.value.weight', 'roberta.encoder.layer.7.alpha_t2i', 'roberta.encoder.layer.7.crossattention_t2i.output.LayerNorm.bias', 'roberta.encoder.layer.7.crossattention_t2i.output.LayerNorm.weight', 'roberta.encoder.layer.7.crossattention_t2i.output.dense.bias', 'roberta.encoder.layer.7.crossattention_t2i.output.dense.weight', 'roberta.encoder.layer.7.crossattention_t2i.self.key.bias', 'roberta.encoder.layer.7.crossattention_t2i.self.key.weight', 'roberta.encoder.layer.7.crossattention_t2i.self.query.bias', 'roberta.encoder.layer.7.crossattention_t2i.self.query.weight', 'roberta.encoder.layer.7.crossattention_t2i.self.value.bias', 'roberta.encoder.layer.7.crossattention_t2i.self.value.weight', 'roberta.encoder.layer.8.alpha_t2i', 'roberta.encoder.layer.8.crossattention_t2i.output.LayerNorm.bias', 'roberta.encoder.layer.8.crossattention_t2i.output.LayerNorm.weight', 'roberta.encoder.layer.8.crossattention_t2i.output.dense.bias', 'roberta.encoder.layer.8.crossattention_t2i.output.dense.weight', 'roberta.encoder.layer.8.crossattention_t2i.self.key.bias', 'roberta.encoder.layer.8.crossattention_t2i.self.key.weight', 'roberta.encoder.layer.8.crossattention_t2i.self.query.bias', 'roberta.encoder.layer.8.crossattention_t2i.self.query.weight', 'roberta.encoder.layer.8.crossattention_t2i.self.value.bias', 'roberta.encoder.layer.8.crossattention_t2i.self.value.weight', 'roberta.encoder.layer.9.alpha_t2i', 'roberta.encoder.layer.9.crossattention_t2i.output.LayerNorm.bias', 'roberta.encoder.layer.9.crossattention_t2i.output.LayerNorm.weight', 'roberta.encoder.layer.9.crossattention_t2i.output.dense.bias', 'roberta.encoder.layer.9.crossattention_t2i.output.dense.weight', 'roberta.encoder.layer.9.crossattention_t2i.self.key.bias', 'roberta.encoder.layer.9.crossattention_t2i.self.key.weight', 'roberta.encoder.layer.9.crossattention_t2i.self.query.bias', 'roberta.encoder.layer.9.crossattention_t2i.self.query.weight', 'roberta.encoder.layer.9.crossattention_t2i.self.value.bias', 'roberta.encoder.layer.9.crossattention_t2i.self.value.weight', 'roberta.pooler.dense.bias', 'roberta.pooler.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+/home/mjd9571/.local/lib/python3.10/site-packages/torchmetrics/utilities/prints.py:36: UserWarning: Torchmetrics v0.9 introduced a new argument class property called `full_state_update` that has
+                not been set for this class (VQAScore). The property determines if `update` by
+                default needs access to the full metric state. If this is not the case, significant speedups can be
+                achieved and we recommend setting this to `False`.
+                We provide an checking function
+                `from torchmetrics.utilities import check_forward_full_state_property`
+                that can be used to check if the `full_state_update=True` (old and potential slower behaviour,
+                default for now) or if `full_state_update=False` can be used safely.
+                
+  warnings.warn(*args, **kwargs)
+/home/mjd9571/.local/lib/python3.10/site-packages/torchmetrics/utilities/prints.py:36: UserWarning: Torchmetrics v0.9 introduced a new argument class property called `full_state_update` that has
+                not been set for this class (Scalar). The property determines if `update` by
+                default needs access to the full metric state. If this is not the case, significant speedups can be
+                achieved and we recommend setting this to `False`.
+                We provide an checking function
+                `from torchmetrics.utilities import check_forward_full_state_property`
+                that can be used to check if the `full_state_update=True` (old and potential slower behaviour,
+                default for now) or if `full_state_update=False` can be used safely.
+                
+  warnings.warn(*args, **kwargs)
+ERROR - FIBER - Failed after 0:00:05!
+Traceback (most recent calls WITHOUT Sacred internals):
+  File "/scratch/mjd9571/multimodal_learning/vqa_nlvr/vqa_inter_run.py", line 25, in main
+    model = FIBERTransformerSS(_config)
+  File "/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/modules/fiber_module.py", line 251, in __init__
+    self.load_state_dict(state_dict, strict=False)
+  File "/home/mjd9571/.local/lib/python3.10/site-packages/torch/nn/modules/module.py", line 2041, in load_state_dict
+    raise RuntimeError('Error(s) in loading state_dict for {}:\n\t{}'.format(
+RuntimeError: Error(s) in loading state_dict for FIBERTransformerSS:
+	size mismatch for vit_model.layers.0.blocks.0.attn.relative_position_bias_table: copying a param with shape torch.Size([529, 4]) from checkpoint, the shape in current model is torch.Size([1225, 4]).
+	size mismatch for vit_model.layers.0.blocks.0.attn.relative_position_index: copying a param with shape torch.Size([144, 144]) from checkpoint, the shape in current model is torch.Size([324, 324]).
+	size mismatch for vit_model.layers.0.blocks.1.attn_mask: copying a param with shape torch.Size([64, 144, 144]) from checkpoint, the shape in current model is torch.Size([64, 324, 324]).
+	size mismatch for vit_model.layers.0.blocks.1.attn.relative_position_bias_table: copying a param with shape torch.Size([529, 4]) from checkpoint, the shape in current model is torch.Size([1225, 4]).
+	size mismatch for vit_model.layers.0.blocks.1.attn.relative_position_index: copying a param with shape torch.Size([144, 144]) from checkpoint, the shape in current model is torch.Size([324, 324]).
+	size mismatch for vit_model.layers.1.blocks.0.attn.relative_position_bias_table: copying a param with shape torch.Size([529, 8]) from checkpoint, the shape in current model is torch.Size([1225, 8]).
+	size mismatch for vit_model.layers.1.blocks.0.attn.relative_position_index: copying a param with shape torch.Size([144, 144]) from checkpoint, the shape in current model is torch.Size([324, 324]).
+	size mismatch for vit_model.layers.1.blocks.1.attn_mask: copying a param with shape torch.Size([16, 144, 144]) from checkpoint, the shape in current model is torch.Size([16, 324, 324]).
+	size mismatch for vit_model.layers.1.blocks.1.attn.relative_position_bias_table: copying a param with shape torch.Size([529, 8]) from checkpoint, the shape in current model is torch.Size([1225, 8]).
+	size mismatch for vit_model.layers.1.blocks.1.attn.relative_position_index: copying a param with shape torch.Size([144, 144]) from checkpoint, the shape in current model is torch.Size([324, 324]).
+	size mismatch for vit_model.layers.2.blocks.0.attn.relative_position_bias_table: copying a param with shape torch.Size([529, 16]) from checkpoint, the shape in current model is torch.Size([1225, 16]).
+	size mismatch for vit_model.layers.2.blocks.0.attn.relative_position_index: copying a param with shape torch.Size([144, 144]) from checkpoint, the shape in current model is torch.Size([324, 324]).
+	size mismatch for vit_model.layers.2.blocks.1.attn_mask: copying a param with shape torch.Size([4, 144, 144]) from checkpoint, the shape in current model is torch.Size([4, 324, 324]).
+	size mismatch for vit_model.layers.2.blocks.1.attn.relative_position_bias_table: copying a param with shape torch.Size([529, 16]) from checkpoint, the shape in current model is torch.Size([1225, 16]).
+	size mismatch for vit_model.layers.2.blocks.1.attn.relative_position_index: copying a param with shape torch.Size([144, 144]) from checkpoint, the shape in current model is torch.Size([324, 324]).
+	size mismatch for vit_model.layers.2.blocks.2.attn.relative_position_bias_table: copying a param with shape torch.Size([529, 16]) from checkpoint, the shape in current model is torch.Size([1225, 16]).
+	size mismatch for vit_model.layers.2.blocks.2.attn.relative_position_index: copying a param with shape torch.Size([144, 144]) from checkpoint, the shape in current model is torch.Size([324, 324]).
+	size mismatch for vit_model.layers.2.blocks.3.attn_mask: copying a param with shape torch.Size([4, 144, 144]) from checkpoint, the shape in current model is torch.Size([4, 324, 324]).
+	size mismatch for vit_model.layers.2.blocks.3.attn.relative_position_bias_table: copying a param with shape torch.Size([529, 16]) from checkpoint, the shape in current model is torch.Size([1225, 16]).
+	size mismatch for vit_model.layers.2.blocks.3.attn.relative_position_index: copying a param with shape torch.Size([144, 144]) from checkpoint, the shape in current model is torch.Size([324, 324]).
+	size mismatch for vit_model.layers.2.blocks.4.attn.relative_position_bias_table: copying a param with shape torch.Size([529, 16]) from checkpoint, the shape in current model is torch.Size([1225, 16]).
+	size mismatch for vit_model.layers.2.blocks.4.attn.relative_position_index: copying a param with shape torch.Size([144, 144]) from checkpoint, the shape in current model is torch.Size([324, 324]).
+	size mismatch for vit_model.layers.2.blocks.5.attn_mask: copying a param with shape torch.Size([4, 144, 144]) from checkpoint, the shape in current model is torch.Size([4, 324, 324]).
+	size mismatch for vit_model.layers.2.blocks.5.attn.relative_position_bias_table: copying a param with shape torch.Size([529, 16]) from checkpoint, the shape in current model is torch.Size([1225, 16]).
+	size mismatch for vit_model.layers.2.blocks.5.attn.relative_position_index: copying a param with shape torch.Size([144, 144]) from checkpoint, the shape in current model is torch.Size([324, 324]).
+	size mismatch for vit_model.layers.2.blocks.6.attn.relative_position_bias_table: copying a param with shape torch.Size([529, 16]) from checkpoint, the shape in current model is torch.Size([1225, 16]).
+	size mismatch for vit_model.layers.2.blocks.6.attn.relative_position_index: copying a param with shape torch.Size([144, 144]) from checkpoint, the shape in current model is torch.Size([324, 324]).
+	size mismatch for vit_model.layers.2.blocks.7.attn_mask: copying a param with shape torch.Size([4, 144, 144]) from checkpoint, the shape in current model is torch.Size([4, 324, 324]).
+	size mismatch for vit_model.layers.2.blocks.7.attn.relative_position_bias_table: copying a param with shape torch.Size([529, 16]) from checkpoint, the shape in current model is torch.Size([1225, 16]).
+	size mismatch for vit_model.layers.2.blocks.7.attn.relative_position_index: copying a param with shape torch.Size([144, 144]) from checkpoint, the shape in current model is torch.Size([324, 324]).
+	size mismatch for vit_model.layers.2.blocks.8.attn.relative_position_bias_table: copying a param with shape torch.Size([529, 16]) from checkpoint, the shape in current model is torch.Size([1225, 16]).
+	size mismatch for vit_model.layers.2.blocks.8.attn.relative_position_index: copying a param with shape torch.Size([144, 144]) from checkpoint, the shape in current model is torch.Size([324, 324]).
+	size mismatch for vit_model.layers.2.blocks.9.attn_mask: copying a param with shape torch.Size([4, 144, 144]) from checkpoint, the shape in current model is torch.Size([4, 324, 324]).
+	size mismatch for vit_model.layers.2.blocks.9.attn.relative_position_bias_table: copying a param with shape torch.Size([529, 16]) from checkpoint, the shape in current model is torch.Size([1225, 16]).
+	size mismatch for vit_model.layers.2.blocks.9.attn.relative_position_index: copying a param with shape torch.Size([144, 144]) from checkpoint, the shape in current model is torch.Size([324, 324]).
+	size mismatch for vit_model.layers.2.blocks.10.attn.relative_position_bias_table: copying a param with shape torch.Size([529, 16]) from checkpoint, the shape in current model is torch.Size([1225, 16]).
+	size mismatch for vit_model.layers.2.blocks.10.attn.relative_position_index: copying a param with shape torch.Size([144, 144]) from checkpoint, the shape in current model is torch.Size([324, 324]).
+	size mismatch for vit_model.layers.2.blocks.11.attn_mask: copying a param with shape torch.Size([4, 144, 144]) from checkpoint, the shape in current model is torch.Size([4, 324, 324]).
+	size mismatch for vit_model.layers.2.blocks.11.attn.relative_position_bias_table: copying a param with shape torch.Size([529, 16]) from checkpoint, the shape in current model is torch.Size([1225, 16]).
+	size mismatch for vit_model.layers.2.blocks.11.attn.relative_position_index: copying a param with shape torch.Size([144, 144]) from checkpoint, the shape in current model is torch.Size([324, 324]).
+	size mismatch for vit_model.layers.2.blocks.12.attn.relative_position_bias_table: copying a param with shape torch.Size([529, 16]) from checkpoint, the shape in current model is torch.Size([1225, 16]).
+	size mismatch for vit_model.layers.2.blocks.12.attn.relative_position_index: copying a param with shape torch.Size([144, 144]) from checkpoint, the shape in current model is torch.Size([324, 324]).
+	size mismatch for vit_model.layers.2.blocks.13.attn_mask: copying a param with shape torch.Size([4, 144, 144]) from checkpoint, the shape in current model is torch.Size([4, 324, 324]).
+	size mismatch for vit_model.layers.2.blocks.13.attn.relative_position_bias_table: copying a param with shape torch.Size([529, 16]) from checkpoint, the shape in current model is torch.Size([1225, 16]).
+	size mismatch for vit_model.layers.2.blocks.13.attn.relative_position_index: copying a param with shape torch.Size([144, 144]) from checkpoint, the shape in current model is torch.Size([324, 324]).
+	size mismatch for vit_model.layers.2.blocks.14.attn.relative_position_bias_table: copying a param with shape torch.Size([529, 16]) from checkpoint, the shape in current model is torch.Size([1225, 16]).
+	size mismatch for vit_model.layers.2.blocks.14.attn.relative_position_index: copying a param with shape torch.Size([144, 144]) from checkpoint, the shape in current model is torch.Size([324, 324]).
+	size mismatch for vit_model.layers.2.blocks.15.attn_mask: copying a param with shape torch.Size([4, 144, 144]) from checkpoint, the shape in current model is torch.Size([4, 324, 324]).
+	size mismatch for vit_model.layers.2.blocks.15.attn.relative_position_bias_table: copying a param with shape torch.Size([529, 16]) from checkpoint, the shape in current model is torch.Size([1225, 16]).
+	size mismatch for vit_model.layers.2.blocks.15.attn.relative_position_index: copying a param with shape torch.Size([144, 144]) from checkpoint, the shape in current model is torch.Size([324, 324]).
+	size mismatch for vit_model.layers.2.blocks.16.attn.relative_position_bias_table: copying a param with shape torch.Size([529, 16]) from checkpoint, the shape in current model is torch.Size([1225, 16]).
+	size mismatch for vit_model.layers.2.blocks.16.attn.relative_position_index: copying a param with shape torch.Size([144, 144]) from checkpoint, the shape in current model is torch.Size([324, 324]).
+	size mismatch for vit_model.layers.2.blocks.17.attn_mask: copying a param with shape torch.Size([4, 144, 144]) from checkpoint, the shape in current model is torch.Size([4, 324, 324]).
+	size mismatch for vit_model.layers.2.blocks.17.attn.relative_position_bias_table: copying a param with shape torch.Size([529, 16]) from checkpoint, the shape in current model is torch.Size([1225, 16]).
+	size mismatch for vit_model.layers.2.blocks.17.attn.relative_position_index: copying a param with shape torch.Size([144, 144]) from checkpoint, the shape in current model is torch.Size([324, 324]).
+	size mismatch for vit_model.layers.3.blocks.0.attn.relative_position_bias_table: copying a param with shape torch.Size([529, 32]) from checkpoint, the shape in current model is torch.Size([1225, 32]).
+	size mismatch for vit_model.layers.3.blocks.0.attn.relative_position_index: copying a param with shape torch.Size([144, 144]) from checkpoint, the shape in current model is torch.Size([324, 324]).
+	size mismatch for vit_model.layers.3.blocks.1.attn.relative_position_bias_table: copying a param with shape torch.Size([529, 32]) from checkpoint, the shape in current model is torch.Size([1225, 32]).
+	size mismatch for vit_model.layers.3.blocks.1.attn.relative_position_index: copying a param with shape torch.Size([144, 144]) from checkpoint, the shape in current model is torch.Size([324, 324]).
+

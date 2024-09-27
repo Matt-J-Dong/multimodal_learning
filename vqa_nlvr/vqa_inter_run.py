@@ -79,6 +79,6 @@ def main(_config):
     if not _config["test_only"]:
         #trainer.fit(model, datamodule=dm)
         # automatically restores model, epoch, step, LR schedulers, etc...
-        trainer.fit(model, datamodule=dm, ckpt_path="./vqa_inter_modality/best_epoch=16-val/the_metric=0.64.ckpt")
+        trainer.fit(model, datamodule=dm, ckpt_path="./vqa_inter_modality/best_epoch=33-val/the_metric=0.66.ckpt")
     else:
         trainer.test(model, datamodule=dm)

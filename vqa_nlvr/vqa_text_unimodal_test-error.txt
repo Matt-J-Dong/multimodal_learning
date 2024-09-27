@@ -1,0 +1,332 @@
+.env: line 1: WANDB_API_KEY: command not found
+wandb: ERROR Find detailed error logs at: /scratch/mjd9571/multimodal_learning/vqa_nlvr/wandb/debug-cli.mjd9571.log
+Error: api_key not configured (no-tty). call wandb login [your_api_key]
+WARNING - root - Changed type of config entry "max_steps" from int to NoneType
+WARNING - FIBER - No observers have been added to this run
+INFO - FIBER - Running command 'main'
+INFO - FIBER - Started
+Global seed set to 3
+/home/mjd9571/.local/lib/python3.10/site-packages/torch/functional.py:504: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at ../aten/src/ATen/native/TensorShape.cpp:3483.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+Some weights of RobertaModel were not initialized from the model checkpoint at roberta-base and are newly initialized: ['roberta.encoder.layer.0.alpha_t2i', 'roberta.encoder.layer.1.alpha_t2i', 'roberta.encoder.layer.10.alpha_t2i', 'roberta.encoder.layer.10.crossattention_t2i.output.LayerNorm.bias', 'roberta.encoder.layer.10.crossattention_t2i.output.LayerNorm.weight', 'roberta.encoder.layer.10.crossattention_t2i.output.dense.bias', 'roberta.encoder.layer.10.crossattention_t2i.output.dense.weight', 'roberta.encoder.layer.10.crossattention_t2i.self.key.bias', 'roberta.encoder.layer.10.crossattention_t2i.self.key.weight', 'roberta.encoder.layer.10.crossattention_t2i.self.query.bias', 'roberta.encoder.layer.10.crossattention_t2i.self.query.weight', 'roberta.encoder.layer.10.crossattention_t2i.self.value.bias', 'roberta.encoder.layer.10.crossattention_t2i.self.value.weight', 'roberta.encoder.layer.11.alpha_t2i', 'roberta.encoder.layer.11.crossattention_t2i.output.LayerNorm.bias', 'roberta.encoder.layer.11.crossattention_t2i.output.LayerNorm.weight', 'roberta.encoder.layer.11.crossattention_t2i.output.dense.bias', 'roberta.encoder.layer.11.crossattention_t2i.output.dense.weight', 'roberta.encoder.layer.11.crossattention_t2i.self.key.bias', 'roberta.encoder.layer.11.crossattention_t2i.self.key.weight', 'roberta.encoder.layer.11.crossattention_t2i.self.query.bias', 'roberta.encoder.layer.11.crossattention_t2i.self.query.weight', 'roberta.encoder.layer.11.crossattention_t2i.self.value.bias', 'roberta.encoder.layer.11.crossattention_t2i.self.value.weight', 'roberta.encoder.layer.2.alpha_t2i', 'roberta.encoder.layer.3.alpha_t2i', 'roberta.encoder.layer.4.alpha_t2i', 'roberta.encoder.layer.5.alpha_t2i', 'roberta.encoder.layer.6.alpha_t2i', 'roberta.encoder.layer.6.crossattention_t2i.output.LayerNorm.bias', 'roberta.encoder.layer.6.crossattention_t2i.output.LayerNorm.weight', 'roberta.encoder.layer.6.crossattention_t2i.output.dense.bias', 'roberta.encoder.layer.6.crossattention_t2i.output.dense.weight', 'roberta.encoder.layer.6.crossattention_t2i.self.key.bias', 'roberta.encoder.layer.6.crossattention_t2i.self.key.weight', 'roberta.encoder.layer.6.crossattention_t2i.self.query.bias', 'roberta.encoder.layer.6.crossattention_t2i.self.query.weight', 'roberta.encoder.layer.6.crossattention_t2i.self.value.bias', 'roberta.encoder.layer.6.crossattention_t2i.self.value.weight', 'roberta.encoder.layer.7.alpha_t2i', 'roberta.encoder.layer.7.crossattention_t2i.output.LayerNorm.bias', 'roberta.encoder.layer.7.crossattention_t2i.output.LayerNorm.weight', 'roberta.encoder.layer.7.crossattention_t2i.output.dense.bias', 'roberta.encoder.layer.7.crossattention_t2i.output.dense.weight', 'roberta.encoder.layer.7.crossattention_t2i.self.key.bias', 'roberta.encoder.layer.7.crossattention_t2i.self.key.weight', 'roberta.encoder.layer.7.crossattention_t2i.self.query.bias', 'roberta.encoder.layer.7.crossattention_t2i.self.query.weight', 'roberta.encoder.layer.7.crossattention_t2i.self.value.bias', 'roberta.encoder.layer.7.crossattention_t2i.self.value.weight', 'roberta.encoder.layer.8.alpha_t2i', 'roberta.encoder.layer.8.crossattention_t2i.output.LayerNorm.bias', 'roberta.encoder.layer.8.crossattention_t2i.output.LayerNorm.weight', 'roberta.encoder.layer.8.crossattention_t2i.output.dense.bias', 'roberta.encoder.layer.8.crossattention_t2i.output.dense.weight', 'roberta.encoder.layer.8.crossattention_t2i.self.key.bias', 'roberta.encoder.layer.8.crossattention_t2i.self.key.weight', 'roberta.encoder.layer.8.crossattention_t2i.self.query.bias', 'roberta.encoder.layer.8.crossattention_t2i.self.query.weight', 'roberta.encoder.layer.8.crossattention_t2i.self.value.bias', 'roberta.encoder.layer.8.crossattention_t2i.self.value.weight', 'roberta.encoder.layer.9.alpha_t2i', 'roberta.encoder.layer.9.crossattention_t2i.output.LayerNorm.bias', 'roberta.encoder.layer.9.crossattention_t2i.output.LayerNorm.weight', 'roberta.encoder.layer.9.crossattention_t2i.output.dense.bias', 'roberta.encoder.layer.9.crossattention_t2i.output.dense.weight', 'roberta.encoder.layer.9.crossattention_t2i.self.key.bias', 'roberta.encoder.layer.9.crossattention_t2i.self.key.weight', 'roberta.encoder.layer.9.crossattention_t2i.self.query.bias', 'roberta.encoder.layer.9.crossattention_t2i.self.query.weight', 'roberta.encoder.layer.9.crossattention_t2i.self.value.bias', 'roberta.encoder.layer.9.crossattention_t2i.self.value.weight', 'roberta.pooler.dense.bias', 'roberta.pooler.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+/home/mjd9571/.local/lib/python3.10/site-packages/torchmetrics/utilities/prints.py:36: UserWarning: Torchmetrics v0.9 introduced a new argument class property called `full_state_update` that has
+                not been set for this class (VQAScore). The property determines if `update` by
+                default needs access to the full metric state. If this is not the case, significant speedups can be
+                achieved and we recommend setting this to `False`.
+                We provide an checking function
+                `from torchmetrics.utilities import check_forward_full_state_property`
+                that can be used to check if the `full_state_update=True` (old and potential slower behaviour,
+                default for now) or if `full_state_update=False` can be used safely.
+                
+  warnings.warn(*args, **kwargs)
+/home/mjd9571/.local/lib/python3.10/site-packages/torchmetrics/utilities/prints.py:36: UserWarning: Torchmetrics v0.9 introduced a new argument class property called `full_state_update` that has
+                not been set for this class (Scalar). The property determines if `update` by
+                default needs access to the full metric state. If this is not the case, significant speedups can be
+                achieved and we recommend setting this to `False`.
+                We provide an checking function
+                `from torchmetrics.utilities import check_forward_full_state_property`
+                that can be used to check if the `full_state_update=True` (old and potential slower behaviour,
+                default for now) or if `full_state_update=False` can be used safely.
+                
+  warnings.warn(*args, **kwargs)
+/home/mjd9571/.local/lib/python3.10/site-packages/pytorch_lightning/trainer/connectors/accelerator_connector.py:161: UserWarning: You passed `deterministic=True` and `benchmark=True`. Note that PyTorch ignores torch.backends.cudnn.deterministic=True when torch.backends.cudnn.benchmark=True.
+  rank_zero_warn(
+/home/mjd9571/.local/lib/python3.10/site-packages/pytorch_lightning/trainer/connectors/accelerator_connector.py:447: LightningDeprecationWarning: Setting `Trainer(gpus=4)` is deprecated in v1.7 and will be removed in v2.0. Please use `Trainer(accelerator='gpu', devices=4)` instead.
+  rank_zero_deprecation(
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+WARNING - root - Changed type of config entry "max_steps" from int to NoneType
+WARNING - FIBER - No observers have been added to this run
+INFO - FIBER - Running command 'main'
+INFO - FIBER - Started
+Global seed set to 3
+/home/mjd9571/.local/lib/python3.10/site-packages/torch/functional.py:504: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at ../aten/src/ATen/native/TensorShape.cpp:3483.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+WARNING - root - Changed type of config entry "max_steps" from int to NoneType
+WARNING - FIBER - No observers have been added to this run
+INFO - FIBER - Running command 'main'
+INFO - FIBER - Started
+Global seed set to 3
+/home/mjd9571/.local/lib/python3.10/site-packages/torch/functional.py:504: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at ../aten/src/ATen/native/TensorShape.cpp:3483.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+Global seed set to 3
+Initializing distributed: GLOBAL_RANK: 0, MEMBER: 1/4
+Some weights of RobertaModel were not initialized from the model checkpoint at roberta-base and are newly initialized: ['roberta.encoder.layer.0.alpha_t2i', 'roberta.encoder.layer.1.alpha_t2i', 'roberta.encoder.layer.10.alpha_t2i', 'roberta.encoder.layer.10.crossattention_t2i.output.LayerNorm.bias', 'roberta.encoder.layer.10.crossattention_t2i.output.LayerNorm.weight', 'roberta.encoder.layer.10.crossattention_t2i.output.dense.bias', 'roberta.encoder.layer.10.crossattention_t2i.output.dense.weight', 'roberta.encoder.layer.10.crossattention_t2i.self.key.bias', 'roberta.encoder.layer.10.crossattention_t2i.self.key.weight', 'roberta.encoder.layer.10.crossattention_t2i.self.query.bias', 'roberta.encoder.layer.10.crossattention_t2i.self.query.weight', 'roberta.encoder.layer.10.crossattention_t2i.self.value.bias', 'roberta.encoder.layer.10.crossattention_t2i.self.value.weight', 'roberta.encoder.layer.11.alpha_t2i', 'roberta.encoder.layer.11.crossattention_t2i.output.LayerNorm.bias', 'roberta.encoder.layer.11.crossattention_t2i.output.LayerNorm.weight', 'roberta.encoder.layer.11.crossattention_t2i.output.dense.bias', 'roberta.encoder.layer.11.crossattention_t2i.output.dense.weight', 'roberta.encoder.layer.11.crossattention_t2i.self.key.bias', 'roberta.encoder.layer.11.crossattention_t2i.self.key.weight', 'roberta.encoder.layer.11.crossattention_t2i.self.query.bias', 'roberta.encoder.layer.11.crossattention_t2i.self.query.weight', 'roberta.encoder.layer.11.crossattention_t2i.self.value.bias', 'roberta.encoder.layer.11.crossattention_t2i.self.value.weight', 'roberta.encoder.layer.2.alpha_t2i', 'roberta.encoder.layer.3.alpha_t2i', 'roberta.encoder.layer.4.alpha_t2i', 'roberta.encoder.layer.5.alpha_t2i', 'roberta.encoder.layer.6.alpha_t2i', 'roberta.encoder.layer.6.crossattention_t2i.output.LayerNorm.bias', 'roberta.encoder.layer.6.crossattention_t2i.output.LayerNorm.weight', 'roberta.encoder.layer.6.crossattention_t2i.output.dense.bias', 'roberta.encoder.layer.6.crossattention_t2i.output.dense.weight', 'roberta.encoder.layer.6.crossattention_t2i.self.key.bias', 'roberta.encoder.layer.6.crossattention_t2i.self.key.weight', 'roberta.encoder.layer.6.crossattention_t2i.self.query.bias', 'roberta.encoder.layer.6.crossattention_t2i.self.query.weight', 'roberta.encoder.layer.6.crossattention_t2i.self.value.bias', 'roberta.encoder.layer.6.crossattention_t2i.self.value.weight', 'roberta.encoder.layer.7.alpha_t2i', 'roberta.encoder.layer.7.crossattention_t2i.output.LayerNorm.bias', 'roberta.encoder.layer.7.crossattention_t2i.output.LayerNorm.weight', 'roberta.encoder.layer.7.crossattention_t2i.output.dense.bias', 'roberta.encoder.layer.7.crossattention_t2i.output.dense.weight', 'roberta.encoder.layer.7.crossattention_t2i.self.key.bias', 'roberta.encoder.layer.7.crossattention_t2i.self.key.weight', 'roberta.encoder.layer.7.crossattention_t2i.self.query.bias', 'roberta.encoder.layer.7.crossattention_t2i.self.query.weight', 'roberta.encoder.layer.7.crossattention_t2i.self.value.bias', 'roberta.encoder.layer.7.crossattention_t2i.self.value.weight', 'roberta.encoder.layer.8.alpha_t2i', 'roberta.encoder.layer.8.crossattention_t2i.output.LayerNorm.bias', 'roberta.encoder.layer.8.crossattention_t2i.output.LayerNorm.weight', 'roberta.encoder.layer.8.crossattention_t2i.output.dense.bias', 'roberta.encoder.layer.8.crossattention_t2i.output.dense.weight', 'roberta.encoder.layer.8.crossattention_t2i.self.key.bias', 'roberta.encoder.layer.8.crossattention_t2i.self.key.weight', 'roberta.encoder.layer.8.crossattention_t2i.self.query.bias', 'roberta.encoder.layer.8.crossattention_t2i.self.query.weight', 'roberta.encoder.layer.8.crossattention_t2i.self.value.bias', 'roberta.encoder.layer.8.crossattention_t2i.self.value.weight', 'roberta.encoder.layer.9.alpha_t2i', 'roberta.encoder.layer.9.crossattention_t2i.output.LayerNorm.bias', 'roberta.encoder.layer.9.crossattention_t2i.output.LayerNorm.weight', 'roberta.encoder.layer.9.crossattention_t2i.output.dense.bias', 'roberta.encoder.layer.9.crossattention_t2i.output.dense.weight', 'roberta.encoder.layer.9.crossattention_t2i.self.key.bias', 'roberta.encoder.layer.9.crossattention_t2i.self.key.weight', 'roberta.encoder.layer.9.crossattention_t2i.self.query.bias', 'roberta.encoder.layer.9.crossattention_t2i.self.query.weight', 'roberta.encoder.layer.9.crossattention_t2i.self.value.bias', 'roberta.encoder.layer.9.crossattention_t2i.self.value.weight', 'roberta.pooler.dense.bias', 'roberta.pooler.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+WARNING - root - Changed type of config entry "max_steps" from int to NoneType
+WARNING - FIBER - No observers have been added to this run
+INFO - FIBER - Running command 'main'
+INFO - FIBER - Started
+Global seed set to 3
+/home/mjd9571/.local/lib/python3.10/site-packages/torch/functional.py:504: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at ../aten/src/ATen/native/TensorShape.cpp:3483.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+Global seed set to 3
+Initializing distributed: GLOBAL_RANK: 1, MEMBER: 2/4
+INFO - torch.distributed.distributed_c10d - Added key: store_based_barrier_key:1 to store for rank: 1
+Some weights of RobertaModel were not initialized from the model checkpoint at roberta-base and are newly initialized: ['roberta.encoder.layer.0.alpha_t2i', 'roberta.encoder.layer.1.alpha_t2i', 'roberta.encoder.layer.10.alpha_t2i', 'roberta.encoder.layer.10.crossattention_t2i.output.LayerNorm.bias', 'roberta.encoder.layer.10.crossattention_t2i.output.LayerNorm.weight', 'roberta.encoder.layer.10.crossattention_t2i.output.dense.bias', 'roberta.encoder.layer.10.crossattention_t2i.output.dense.weight', 'roberta.encoder.layer.10.crossattention_t2i.self.key.bias', 'roberta.encoder.layer.10.crossattention_t2i.self.key.weight', 'roberta.encoder.layer.10.crossattention_t2i.self.query.bias', 'roberta.encoder.layer.10.crossattention_t2i.self.query.weight', 'roberta.encoder.layer.10.crossattention_t2i.self.value.bias', 'roberta.encoder.layer.10.crossattention_t2i.self.value.weight', 'roberta.encoder.layer.11.alpha_t2i', 'roberta.encoder.layer.11.crossattention_t2i.output.LayerNorm.bias', 'roberta.encoder.layer.11.crossattention_t2i.output.LayerNorm.weight', 'roberta.encoder.layer.11.crossattention_t2i.output.dense.bias', 'roberta.encoder.layer.11.crossattention_t2i.output.dense.weight', 'roberta.encoder.layer.11.crossattention_t2i.self.key.bias', 'roberta.encoder.layer.11.crossattention_t2i.self.key.weight', 'roberta.encoder.layer.11.crossattention_t2i.self.query.bias', 'roberta.encoder.layer.11.crossattention_t2i.self.query.weight', 'roberta.encoder.layer.11.crossattention_t2i.self.value.bias', 'roberta.encoder.layer.11.crossattention_t2i.self.value.weight', 'roberta.encoder.layer.2.alpha_t2i', 'roberta.encoder.layer.3.alpha_t2i', 'roberta.encoder.layer.4.alpha_t2i', 'roberta.encoder.layer.5.alpha_t2i', 'roberta.encoder.layer.6.alpha_t2i', 'roberta.encoder.layer.6.crossattention_t2i.output.LayerNorm.bias', 'roberta.encoder.layer.6.crossattention_t2i.output.LayerNorm.weight', 'roberta.encoder.layer.6.crossattention_t2i.output.dense.bias', 'roberta.encoder.layer.6.crossattention_t2i.output.dense.weight', 'roberta.encoder.layer.6.crossattention_t2i.self.key.bias', 'roberta.encoder.layer.6.crossattention_t2i.self.key.weight', 'roberta.encoder.layer.6.crossattention_t2i.self.query.bias', 'roberta.encoder.layer.6.crossattention_t2i.self.query.weight', 'roberta.encoder.layer.6.crossattention_t2i.self.value.bias', 'roberta.encoder.layer.6.crossattention_t2i.self.value.weight', 'roberta.encoder.layer.7.alpha_t2i', 'roberta.encoder.layer.7.crossattention_t2i.output.LayerNorm.bias', 'roberta.encoder.layer.7.crossattention_t2i.output.LayerNorm.weight', 'roberta.encoder.layer.7.crossattention_t2i.output.dense.bias', 'roberta.encoder.layer.7.crossattention_t2i.output.dense.weight', 'roberta.encoder.layer.7.crossattention_t2i.self.key.bias', 'roberta.encoder.layer.7.crossattention_t2i.self.key.weight', 'roberta.encoder.layer.7.crossattention_t2i.self.query.bias', 'roberta.encoder.layer.7.crossattention_t2i.self.query.weight', 'roberta.encoder.layer.7.crossattention_t2i.self.value.bias', 'roberta.encoder.layer.7.crossattention_t2i.self.value.weight', 'roberta.encoder.layer.8.alpha_t2i', 'roberta.encoder.layer.8.crossattention_t2i.output.LayerNorm.bias', 'roberta.encoder.layer.8.crossattention_t2i.output.LayerNorm.weight', 'roberta.encoder.layer.8.crossattention_t2i.output.dense.bias', 'roberta.encoder.layer.8.crossattention_t2i.output.dense.weight', 'roberta.encoder.layer.8.crossattention_t2i.self.key.bias', 'roberta.encoder.layer.8.crossattention_t2i.self.key.weight', 'roberta.encoder.layer.8.crossattention_t2i.self.query.bias', 'roberta.encoder.layer.8.crossattention_t2i.self.query.weight', 'roberta.encoder.layer.8.crossattention_t2i.self.value.bias', 'roberta.encoder.layer.8.crossattention_t2i.self.value.weight', 'roberta.encoder.layer.9.alpha_t2i', 'roberta.encoder.layer.9.crossattention_t2i.output.LayerNorm.bias', 'roberta.encoder.layer.9.crossattention_t2i.output.LayerNorm.weight', 'roberta.encoder.layer.9.crossattention_t2i.output.dense.bias', 'roberta.encoder.layer.9.crossattention_t2i.output.dense.weight', 'roberta.encoder.layer.9.crossattention_t2i.self.key.bias', 'roberta.encoder.layer.9.crossattention_t2i.self.key.weight', 'roberta.encoder.layer.9.crossattention_t2i.self.query.bias', 'roberta.encoder.layer.9.crossattention_t2i.self.query.weight', 'roberta.encoder.layer.9.crossattention_t2i.self.value.bias', 'roberta.encoder.layer.9.crossattention_t2i.self.value.weight', 'roberta.pooler.dense.bias', 'roberta.pooler.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Some weights of RobertaModel were not initialized from the model checkpoint at roberta-base and are newly initialized: ['roberta.encoder.layer.0.alpha_t2i', 'roberta.encoder.layer.1.alpha_t2i', 'roberta.encoder.layer.10.alpha_t2i', 'roberta.encoder.layer.10.crossattention_t2i.output.LayerNorm.bias', 'roberta.encoder.layer.10.crossattention_t2i.output.LayerNorm.weight', 'roberta.encoder.layer.10.crossattention_t2i.output.dense.bias', 'roberta.encoder.layer.10.crossattention_t2i.output.dense.weight', 'roberta.encoder.layer.10.crossattention_t2i.self.key.bias', 'roberta.encoder.layer.10.crossattention_t2i.self.key.weight', 'roberta.encoder.layer.10.crossattention_t2i.self.query.bias', 'roberta.encoder.layer.10.crossattention_t2i.self.query.weight', 'roberta.encoder.layer.10.crossattention_t2i.self.value.bias', 'roberta.encoder.layer.10.crossattention_t2i.self.value.weight', 'roberta.encoder.layer.11.alpha_t2i', 'roberta.encoder.layer.11.crossattention_t2i.output.LayerNorm.bias', 'roberta.encoder.layer.11.crossattention_t2i.output.LayerNorm.weight', 'roberta.encoder.layer.11.crossattention_t2i.output.dense.bias', 'roberta.encoder.layer.11.crossattention_t2i.output.dense.weight', 'roberta.encoder.layer.11.crossattention_t2i.self.key.bias', 'roberta.encoder.layer.11.crossattention_t2i.self.key.weight', 'roberta.encoder.layer.11.crossattention_t2i.self.query.bias', 'roberta.encoder.layer.11.crossattention_t2i.self.query.weight', 'roberta.encoder.layer.11.crossattention_t2i.self.value.bias', 'roberta.encoder.layer.11.crossattention_t2i.self.value.weight', 'roberta.encoder.layer.2.alpha_t2i', 'roberta.encoder.layer.3.alpha_t2i', 'roberta.encoder.layer.4.alpha_t2i', 'roberta.encoder.layer.5.alpha_t2i', 'roberta.encoder.layer.6.alpha_t2i', 'roberta.encoder.layer.6.crossattention_t2i.output.LayerNorm.bias', 'roberta.encoder.layer.6.crossattention_t2i.output.LayerNorm.weight', 'roberta.encoder.layer.6.crossattention_t2i.output.dense.bias', 'roberta.encoder.layer.6.crossattention_t2i.output.dense.weight', 'roberta.encoder.layer.6.crossattention_t2i.self.key.bias', 'roberta.encoder.layer.6.crossattention_t2i.self.key.weight', 'roberta.encoder.layer.6.crossattention_t2i.self.query.bias', 'roberta.encoder.layer.6.crossattention_t2i.self.query.weight', 'roberta.encoder.layer.6.crossattention_t2i.self.value.bias', 'roberta.encoder.layer.6.crossattention_t2i.self.value.weight', 'roberta.encoder.layer.7.alpha_t2i', 'roberta.encoder.layer.7.crossattention_t2i.output.LayerNorm.bias', 'roberta.encoder.layer.7.crossattention_t2i.output.LayerNorm.weight', 'roberta.encoder.layer.7.crossattention_t2i.output.dense.bias', 'roberta.encoder.layer.7.crossattention_t2i.output.dense.weight', 'roberta.encoder.layer.7.crossattention_t2i.self.key.bias', 'roberta.encoder.layer.7.crossattention_t2i.self.key.weight', 'roberta.encoder.layer.7.crossattention_t2i.self.query.bias', 'roberta.encoder.layer.7.crossattention_t2i.self.query.weight', 'roberta.encoder.layer.7.crossattention_t2i.self.value.bias', 'roberta.encoder.layer.7.crossattention_t2i.self.value.weight', 'roberta.encoder.layer.8.alpha_t2i', 'roberta.encoder.layer.8.crossattention_t2i.output.LayerNorm.bias', 'roberta.encoder.layer.8.crossattention_t2i.output.LayerNorm.weight', 'roberta.encoder.layer.8.crossattention_t2i.output.dense.bias', 'roberta.encoder.layer.8.crossattention_t2i.output.dense.weight', 'roberta.encoder.layer.8.crossattention_t2i.self.key.bias', 'roberta.encoder.layer.8.crossattention_t2i.self.key.weight', 'roberta.encoder.layer.8.crossattention_t2i.self.query.bias', 'roberta.encoder.layer.8.crossattention_t2i.self.query.weight', 'roberta.encoder.layer.8.crossattention_t2i.self.value.bias', 'roberta.encoder.layer.8.crossattention_t2i.self.value.weight', 'roberta.encoder.layer.9.alpha_t2i', 'roberta.encoder.layer.9.crossattention_t2i.output.LayerNorm.bias', 'roberta.encoder.layer.9.crossattention_t2i.output.LayerNorm.weight', 'roberta.encoder.layer.9.crossattention_t2i.output.dense.bias', 'roberta.encoder.layer.9.crossattention_t2i.output.dense.weight', 'roberta.encoder.layer.9.crossattention_t2i.self.key.bias', 'roberta.encoder.layer.9.crossattention_t2i.self.key.weight', 'roberta.encoder.layer.9.crossattention_t2i.self.query.bias', 'roberta.encoder.layer.9.crossattention_t2i.self.query.weight', 'roberta.encoder.layer.9.crossattention_t2i.self.value.bias', 'roberta.encoder.layer.9.crossattention_t2i.self.value.weight', 'roberta.pooler.dense.bias', 'roberta.pooler.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Global seed set to 3
+Initializing distributed: GLOBAL_RANK: 2, MEMBER: 3/4
+INFO - torch.distributed.distributed_c10d - Added key: store_based_barrier_key:1 to store for rank: 2
+Global seed set to 3
+Initializing distributed: GLOBAL_RANK: 3, MEMBER: 4/4
+INFO - torch.distributed.distributed_c10d - Added key: store_based_barrier_key:1 to store for rank: 3
+INFO - torch.distributed.distributed_c10d - Added key: store_based_barrier_key:1 to store for rank: 0
+INFO - torch.distributed.distributed_c10d - Rank 0: Completed store-based barrier for key:store_based_barrier_key:1 with 4 nodes.
+----------------------------------------------------------------------------------------------------
+distributed_backend=nccl
+All distributed processes registered. Starting with 4 processes
+----------------------------------------------------------------------------------------------------
+
+INFO - torch.distributed.distributed_c10d - Rank 3: Completed store-based barrier for key:store_based_barrier_key:1 with 4 nodes.
+INFO - torch.distributed.distributed_c10d - Rank 2: Completed store-based barrier for key:store_based_barrier_key:1 with 4 nodes.
+INFO - torch.distributed.distributed_c10d - Rank 1: Completed store-based barrier for key:store_based_barrier_key:1 with 4 nodes.
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/datasets/vqav2_dataset.py:16: FutureWarning: promote has been superseded by promote_options='default'.
+  super().__init__(
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/datasets/vqav2_dataset.py:16: FutureWarning: promote has been superseded by promote_options='default'.
+  super().__init__(
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/datasets/vqav2_dataset.py:16: FutureWarning: promote has been superseded by promote_options='default'.
+  super().__init__(
+/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/datasets/vqav2_dataset.py:16: FutureWarning: promote has been superseded by promote_options='default'.
+  super().__init__(
+LOCAL_RANK: 3 - CUDA_VISIBLE_DEVICES: [0,1,2,3]
+LOCAL_RANK: 2 - CUDA_VISIBLE_DEVICES: [0,1,2,3]
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1,2,3]
+LOCAL_RANK: 1 - CUDA_VISIBLE_DEVICES: [0,1,2,3]
+/home/mjd9571/.local/lib/python3.10/site-packages/pytorch_lightning/loggers/csv_logs.py:57: UserWarning: Experiment logs directory ./vqa_text_unimodal/version_3 exists and is not empty. Previous log files in this directory will be deleted when the new ones are saved!
+  rank_zero_warn(
+/home/mjd9571/.local/lib/python3.10/site-packages/torch/utils/data/dataloader.py:560: UserWarning: This DataLoader will create 8 worker processes in total. Our suggested max number of worker in current system is 4, which is smaller than what this DataLoader is going to create. Please be aware that excessive worker creation might get DataLoader running slow or even freeze, lower the worker number to avoid potential slowness/freeze if necessary.
+  warnings.warn(_create_warning_msg(
+/home/mjd9571/.local/lib/python3.10/site-packages/torch/utils/data/dataloader.py:560: UserWarning: This DataLoader will create 8 worker processes in total. Our suggested max number of worker in current system is 4, which is smaller than what this DataLoader is going to create. Please be aware that excessive worker creation might get DataLoader running slow or even freeze, lower the worker number to avoid potential slowness/freeze if necessary.
+  warnings.warn(_create_warning_msg(
+/home/mjd9571/.local/lib/python3.10/site-packages/torch/utils/data/dataloader.py:560: UserWarning: This DataLoader will create 8 worker processes in total. Our suggested max number of worker in current system is 4, which is smaller than what this DataLoader is going to create. Please be aware that excessive worker creation might get DataLoader running slow or even freeze, lower the worker number to avoid potential slowness/freeze if necessary.
+  warnings.warn(_create_warning_msg(
+/home/mjd9571/.local/lib/python3.10/site-packages/torch/utils/data/dataloader.py:560: UserWarning: This DataLoader will create 8 worker processes in total. Our suggested max number of worker in current system is 4, which is smaller than what this DataLoader is going to create. Please be aware that excessive worker creation might get DataLoader running slow or even freeze, lower the worker number to avoid potential slowness/freeze if necessary.
+  warnings.warn(_create_warning_msg(
+ERROR - FIBER - Failed after 0:00:36!
+Traceback (most recent calls WITHOUT Sacred internals):
+  File "/scratch/mjd9571/multimodal_learning/vqa_nlvr/vqa_text_unimodal_run.py", line 83, in main
+    trainer.test(model, datamodule=dm)
+  File "/home/mjd9571/.local/lib/python3.10/site-packages/pytorch_lightning/trainer/trainer.py", line 862, in test
+    return self._call_and_handle_interrupt(self._test_impl, model, dataloaders, ckpt_path, verbose, datamodule)
+  File "/home/mjd9571/.local/lib/python3.10/site-packages/pytorch_lightning/trainer/trainer.py", line 650, in _call_and_handle_interrupt
+    return trainer_fn(*args, **kwargs)
+  File "/home/mjd9571/.local/lib/python3.10/site-packages/pytorch_lightning/trainer/trainer.py", line 909, in _test_impl
+    results = self._run(model, ckpt_path=self.ckpt_path)
+  File "/home/mjd9571/.local/lib/python3.10/site-packages/pytorch_lightning/trainer/trainer.py", line 1166, in _run
+    results = self._run_stage()
+  File "/home/mjd9571/.local/lib/python3.10/site-packages/pytorch_lightning/trainer/trainer.py", line 1249, in _run_stage
+    return self._run_evaluate()
+  File "/home/mjd9571/.local/lib/python3.10/site-packages/pytorch_lightning/trainer/trainer.py", line 1295, in _run_evaluate
+    eval_loop_results = self._evaluation_loop.run()
+  File "/home/mjd9571/.local/lib/python3.10/site-packages/pytorch_lightning/loops/loop.py", line 200, in run
+    self.advance(*args, **kwargs)
+  File "/home/mjd9571/.local/lib/python3.10/site-packages/pytorch_lightning/loops/dataloader/evaluation_loop.py", line 155, in advance
+    dl_outputs = self.epoch_loop.run(self._data_fetcher, dl_max_batches, kwargs)
+  File "/home/mjd9571/.local/lib/python3.10/site-packages/pytorch_lightning/loops/loop.py", line 200, in run
+    self.advance(*args, **kwargs)
+  File "/home/mjd9571/.local/lib/python3.10/site-packages/pytorch_lightning/loops/epoch/evaluation_epoch_loop.py", line 127, in advance
+    batch = next(data_fetcher)
+  File "/home/mjd9571/.local/lib/python3.10/site-packages/pytorch_lightning/utilities/fetching.py", line 184, in __next__
+    return self.fetching_function()
+  File "/home/mjd9571/.local/lib/python3.10/site-packages/pytorch_lightning/utilities/fetching.py", line 263, in fetching_function
+    self._fetch_next_batch(self.dataloader_iter)
+  File "/home/mjd9571/.local/lib/python3.10/site-packages/pytorch_lightning/utilities/fetching.py", line 277, in _fetch_next_batch
+    batch = next(iterator)
+  File "/home/mjd9571/.local/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 633, in __next__
+    data = self._next_data()
+  File "/home/mjd9571/.local/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 1345, in _next_data
+    return self._process_data(data)
+  File "/home/mjd9571/.local/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 1371, in _process_data
+    data.reraise()
+  File "/home/mjd9571/.local/lib/python3.10/site-packages/torch/_utils.py", line 644, in reraise
+    raise exception
+IndexError: Caught IndexError in DataLoader worker process 0.
+Original Traceback (most recent call last):
+  File "/home/mjd9571/.local/lib/python3.10/site-packages/torch/utils/data/_utils/worker.py", line 308, in _worker_loop
+    data = fetcher.fetch(index)
+  File "/home/mjd9571/.local/lib/python3.10/site-packages/torch/utils/data/_utils/fetch.py", line 51, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/mjd9571/.local/lib/python3.10/site-packages/torch/utils/data/_utils/fetch.py", line 51, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/mjd9571/.local/lib/python3.10/site-packages/torch/utils/data/dataset.py", line 243, in __getitem__
+    return self.datasets[dataset_idx][sample_idx]
+  File "/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/datasets/vqav2_dataset.py", line 31, in __getitem__
+    answers = self.table["answers"][index][question_index].as_py()
+  File "pyarrow/scalar.pxi", line 691, in pyarrow.lib.ListScalar.__getitem__
+  File "pyarrow/array.pxi", line 593, in pyarrow.lib._normalize_index
+IndexError: index out of bounds
+
+
+ERROR - FIBER - Failed after 0:00:39!
+Traceback (most recent calls WITHOUT Sacred internals):
+  File "/scratch/mjd9571/multimodal_learning/vqa_nlvr/vqa_text_unimodal_run.py", line 83, in main
+    trainer.test(model, datamodule=dm)
+  File "/home/mjd9571/.local/lib/python3.10/site-packages/pytorch_lightning/trainer/trainer.py", line 862, in test
+    return self._call_and_handle_interrupt(self._test_impl, model, dataloaders, ckpt_path, verbose, datamodule)
+  File "/home/mjd9571/.local/lib/python3.10/site-packages/pytorch_lightning/trainer/trainer.py", line 650, in _call_and_handle_interrupt
+    return trainer_fn(*args, **kwargs)
+  File "/home/mjd9571/.local/lib/python3.10/site-packages/pytorch_lightning/trainer/trainer.py", line 909, in _test_impl
+    results = self._run(model, ckpt_path=self.ckpt_path)
+  File "/home/mjd9571/.local/lib/python3.10/site-packages/pytorch_lightning/trainer/trainer.py", line 1166, in _run
+    results = self._run_stage()
+  File "/home/mjd9571/.local/lib/python3.10/site-packages/pytorch_lightning/trainer/trainer.py", line 1249, in _run_stage
+    return self._run_evaluate()
+  File "/home/mjd9571/.local/lib/python3.10/site-packages/pytorch_lightning/trainer/trainer.py", line 1295, in _run_evaluate
+    eval_loop_results = self._evaluation_loop.run()
+  File "/home/mjd9571/.local/lib/python3.10/site-packages/pytorch_lightning/loops/loop.py", line 200, in run
+    self.advance(*args, **kwargs)
+  File "/home/mjd9571/.local/lib/python3.10/site-packages/pytorch_lightning/loops/dataloader/evaluation_loop.py", line 155, in advance
+    dl_outputs = self.epoch_loop.run(self._data_fetcher, dl_max_batches, kwargs)
+  File "/home/mjd9571/.local/lib/python3.10/site-packages/pytorch_lightning/loops/loop.py", line 200, in run
+    self.advance(*args, **kwargs)
+  File "/home/mjd9571/.local/lib/python3.10/site-packages/pytorch_lightning/loops/epoch/evaluation_epoch_loop.py", line 127, in advance
+    batch = next(data_fetcher)
+  File "/home/mjd9571/.local/lib/python3.10/site-packages/pytorch_lightning/utilities/fetching.py", line 184, in __next__
+    return self.fetching_function()
+  File "/home/mjd9571/.local/lib/python3.10/site-packages/pytorch_lightning/utilities/fetching.py", line 263, in fetching_function
+    self._fetch_next_batch(self.dataloader_iter)
+  File "/home/mjd9571/.local/lib/python3.10/site-packages/pytorch_lightning/utilities/fetching.py", line 277, in _fetch_next_batch
+    batch = next(iterator)
+  File "/home/mjd9571/.local/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 633, in __next__
+    data = self._next_data()
+  File "/home/mjd9571/.local/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 1345, in _next_data
+    return self._process_data(data)
+  File "/home/mjd9571/.local/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 1371, in _process_data
+    data.reraise()
+  File "/home/mjd9571/.local/lib/python3.10/site-packages/torch/_utils.py", line 644, in reraise
+    raise exception
+IndexError: Caught IndexError in DataLoader worker process 0.
+Original Traceback (most recent call last):
+  File "/home/mjd9571/.local/lib/python3.10/site-packages/torch/utils/data/_utils/worker.py", line 308, in _worker_loop
+    data = fetcher.fetch(index)
+  File "/home/mjd9571/.local/lib/python3.10/site-packages/torch/utils/data/_utils/fetch.py", line 51, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/mjd9571/.local/lib/python3.10/site-packages/torch/utils/data/_utils/fetch.py", line 51, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/mjd9571/.local/lib/python3.10/site-packages/torch/utils/data/dataset.py", line 243, in __getitem__
+    return self.datasets[dataset_idx][sample_idx]
+  File "/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/datasets/vqav2_dataset.py", line 31, in __getitem__
+    answers = self.table["answers"][index][question_index].as_py()
+  File "pyarrow/scalar.pxi", line 691, in pyarrow.lib.ListScalar.__getitem__
+  File "pyarrow/array.pxi", line 593, in pyarrow.lib._normalize_index
+IndexError: index out of bounds
+
+
+ERROR - FIBER - Failed after 0:00:59!
+Traceback (most recent calls WITHOUT Sacred internals):
+  File "/scratch/mjd9571/multimodal_learning/vqa_nlvr/vqa_text_unimodal_run.py", line 83, in main
+    trainer.test(model, datamodule=dm)
+  File "/home/mjd9571/.local/lib/python3.10/site-packages/pytorch_lightning/trainer/trainer.py", line 862, in test
+    return self._call_and_handle_interrupt(self._test_impl, model, dataloaders, ckpt_path, verbose, datamodule)
+  File "/home/mjd9571/.local/lib/python3.10/site-packages/pytorch_lightning/trainer/trainer.py", line 648, in _call_and_handle_interrupt
+    return self.strategy.launcher.launch(trainer_fn, *args, trainer=self, **kwargs)
+  File "/home/mjd9571/.local/lib/python3.10/site-packages/pytorch_lightning/strategies/launchers/subprocess_script.py", line 93, in launch
+    return function(*args, **kwargs)
+  File "/home/mjd9571/.local/lib/python3.10/site-packages/pytorch_lightning/trainer/trainer.py", line 909, in _test_impl
+    results = self._run(model, ckpt_path=self.ckpt_path)
+  File "/home/mjd9571/.local/lib/python3.10/site-packages/pytorch_lightning/trainer/trainer.py", line 1166, in _run
+    results = self._run_stage()
+  File "/home/mjd9571/.local/lib/python3.10/site-packages/pytorch_lightning/trainer/trainer.py", line 1249, in _run_stage
+    return self._run_evaluate()
+  File "/home/mjd9571/.local/lib/python3.10/site-packages/pytorch_lightning/trainer/trainer.py", line 1295, in _run_evaluate
+    eval_loop_results = self._evaluation_loop.run()
+  File "/home/mjd9571/.local/lib/python3.10/site-packages/pytorch_lightning/loops/loop.py", line 200, in run
+    self.advance(*args, **kwargs)
+  File "/home/mjd9571/.local/lib/python3.10/site-packages/pytorch_lightning/loops/dataloader/evaluation_loop.py", line 155, in advance
+    dl_outputs = self.epoch_loop.run(self._data_fetcher, dl_max_batches, kwargs)
+  File "/home/mjd9571/.local/lib/python3.10/site-packages/pytorch_lightning/loops/loop.py", line 200, in run
+    self.advance(*args, **kwargs)
+  File "/home/mjd9571/.local/lib/python3.10/site-packages/pytorch_lightning/loops/epoch/evaluation_epoch_loop.py", line 127, in advance
+    batch = next(data_fetcher)
+  File "/home/mjd9571/.local/lib/python3.10/site-packages/pytorch_lightning/utilities/fetching.py", line 184, in __next__
+    return self.fetching_function()
+  File "/home/mjd9571/.local/lib/python3.10/site-packages/pytorch_lightning/utilities/fetching.py", line 263, in fetching_function
+    self._fetch_next_batch(self.dataloader_iter)
+  File "/home/mjd9571/.local/lib/python3.10/site-packages/pytorch_lightning/utilities/fetching.py", line 277, in _fetch_next_batch
+    batch = next(iterator)
+  File "/home/mjd9571/.local/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 633, in __next__
+    data = self._next_data()
+  File "/home/mjd9571/.local/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 1345, in _next_data
+    return self._process_data(data)
+  File "/home/mjd9571/.local/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 1371, in _process_data
+    data.reraise()
+  File "/home/mjd9571/.local/lib/python3.10/site-packages/torch/_utils.py", line 644, in reraise
+    raise exception
+IndexError: Caught IndexError in DataLoader worker process 0.
+Original Traceback (most recent call last):
+  File "/home/mjd9571/.local/lib/python3.10/site-packages/torch/utils/data/_utils/worker.py", line 308, in _worker_loop
+    data = fetcher.fetch(index)
+  File "/home/mjd9571/.local/lib/python3.10/site-packages/torch/utils/data/_utils/fetch.py", line 51, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/mjd9571/.local/lib/python3.10/site-packages/torch/utils/data/_utils/fetch.py", line 51, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/mjd9571/.local/lib/python3.10/site-packages/torch/utils/data/dataset.py", line 243, in __getitem__
+    return self.datasets[dataset_idx][sample_idx]
+  File "/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/datasets/vqav2_dataset.py", line 31, in __getitem__
+    answers = self.table["answers"][index][question_index].as_py()
+  File "pyarrow/scalar.pxi", line 691, in pyarrow.lib.ListScalar.__getitem__
+  File "pyarrow/array.pxi", line 593, in pyarrow.lib._normalize_index
+IndexError: index out of bounds
+
+
+ERROR - FIBER - Failed after 0:00:30!
+Traceback (most recent calls WITHOUT Sacred internals):
+  File "/scratch/mjd9571/multimodal_learning/vqa_nlvr/vqa_text_unimodal_run.py", line 83, in main
+    trainer.test(model, datamodule=dm)
+  File "/home/mjd9571/.local/lib/python3.10/site-packages/pytorch_lightning/trainer/trainer.py", line 862, in test
+    return self._call_and_handle_interrupt(self._test_impl, model, dataloaders, ckpt_path, verbose, datamodule)
+  File "/home/mjd9571/.local/lib/python3.10/site-packages/pytorch_lightning/trainer/trainer.py", line 650, in _call_and_handle_interrupt
+    return trainer_fn(*args, **kwargs)
+  File "/home/mjd9571/.local/lib/python3.10/site-packages/pytorch_lightning/trainer/trainer.py", line 909, in _test_impl
+    results = self._run(model, ckpt_path=self.ckpt_path)
+  File "/home/mjd9571/.local/lib/python3.10/site-packages/pytorch_lightning/trainer/trainer.py", line 1166, in _run
+    results = self._run_stage()
+  File "/home/mjd9571/.local/lib/python3.10/site-packages/pytorch_lightning/trainer/trainer.py", line 1249, in _run_stage
+    return self._run_evaluate()
+  File "/home/mjd9571/.local/lib/python3.10/site-packages/pytorch_lightning/trainer/trainer.py", line 1295, in _run_evaluate
+    eval_loop_results = self._evaluation_loop.run()
+  File "/home/mjd9571/.local/lib/python3.10/site-packages/pytorch_lightning/loops/loop.py", line 200, in run
+    self.advance(*args, **kwargs)
+  File "/home/mjd9571/.local/lib/python3.10/site-packages/pytorch_lightning/loops/dataloader/evaluation_loop.py", line 155, in advance
+    dl_outputs = self.epoch_loop.run(self._data_fetcher, dl_max_batches, kwargs)
+  File "/home/mjd9571/.local/lib/python3.10/site-packages/pytorch_lightning/loops/loop.py", line 200, in run
+    self.advance(*args, **kwargs)
+  File "/home/mjd9571/.local/lib/python3.10/site-packages/pytorch_lightning/loops/epoch/evaluation_epoch_loop.py", line 127, in advance
+    batch = next(data_fetcher)
+  File "/home/mjd9571/.local/lib/python3.10/site-packages/pytorch_lightning/utilities/fetching.py", line 184, in __next__
+    return self.fetching_function()
+  File "/home/mjd9571/.local/lib/python3.10/site-packages/pytorch_lightning/utilities/fetching.py", line 263, in fetching_function
+    self._fetch_next_batch(self.dataloader_iter)
+  File "/home/mjd9571/.local/lib/python3.10/site-packages/pytorch_lightning/utilities/fetching.py", line 277, in _fetch_next_batch
+    batch = next(iterator)
+  File "/home/mjd9571/.local/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 633, in __next__
+    data = self._next_data()
+  File "/home/mjd9571/.local/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 1345, in _next_data
+    return self._process_data(data)
+  File "/home/mjd9571/.local/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 1371, in _process_data
+    data.reraise()
+  File "/home/mjd9571/.local/lib/python3.10/site-packages/torch/_utils.py", line 644, in reraise
+    raise exception
+IndexError: Caught IndexError in DataLoader worker process 0.
+Original Traceback (most recent call last):
+  File "/home/mjd9571/.local/lib/python3.10/site-packages/torch/utils/data/_utils/worker.py", line 308, in _worker_loop
+    data = fetcher.fetch(index)
+  File "/home/mjd9571/.local/lib/python3.10/site-packages/torch/utils/data/_utils/fetch.py", line 51, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/mjd9571/.local/lib/python3.10/site-packages/torch/utils/data/_utils/fetch.py", line 51, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/mjd9571/.local/lib/python3.10/site-packages/torch/utils/data/dataset.py", line 243, in __getitem__
+    return self.datasets[dataset_idx][sample_idx]
+  File "/scratch/mjd9571/multimodal_learning/vqa_nlvr/fiber/datasets/vqav2_dataset.py", line 31, in __getitem__
+    answers = self.table["answers"][index][question_index].as_py()
+  File "pyarrow/scalar.pxi", line 691, in pyarrow.lib.ListScalar.__getitem__
+  File "pyarrow/array.pxi", line 593, in pyarrow.lib._normalize_index
+IndexError: index out of bounds
+
+
