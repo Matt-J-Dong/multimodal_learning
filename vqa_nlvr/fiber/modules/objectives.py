@@ -31,6 +31,7 @@ def compute_vqa(pl_module, batch):
         vqa_logits = pl_module.vqa_classifier(infer_image["cls_feats"],
                                               infer_text["cls_feats"]
                                              )
+        infer = pl_module.infer(batch) #Didn't exist in the intra version before?
     else:
         infer = pl_module.infer(batch)
         infer_text = pl_module.infer(batch, text_only=True)
@@ -39,6 +40,10 @@ def compute_vqa(pl_module, batch):
                                                                                                  infer_image["cls_feats"],
                                                                                                  infer_text["cls_feats"]
                                                                                                  )
+    if infer is None:
+        print("NONE ALERT")
+    else:        
+        print(f"infer is: {infer} outside of the else block")
     vqa_targets = torch.zeros(len(vqa_logits), pl_module.hparams.config["vqav2_label_size"]).to(pl_module.device)
 
     vqa_labels = batch["vqa_labels"]
@@ -77,6 +82,8 @@ def compute_vqa(pl_module, batch):
             "text": infer["text"],
        }
     else:
+        print("Executing else block for exp_name:", pl_module.exp_name)
+        print(f"infer is: {infer} in the else block with the original error.")
         ret = {
             "vqa_loss": vqa_loss,
             "vqa_logits": vqa_logits,

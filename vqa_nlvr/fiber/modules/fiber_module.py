@@ -191,8 +191,10 @@ class FIBERTransformerSS(pl.LightningModule):
                 weight_layer_names = ['vqa_classifier.model.0.weight', 'vqa_classifier.model.1.weight', '', 'vqa_classifier.model.3.weight']
                 bias_layer_names = ['vqa_classifier.model.0.bias', 'vqa_classifier.model.1.bias', '', 'vqa_classifier.model.3.bias']
             
-                ckpt = torch.load('./ckpts/image/1/best_epoch=08-val/the_metric=0.26.ckpt', map_location="cpu")
+                #ckpt = torch.load('./ckpts/image/1/best_epoch=08-val/the_metric=0.26.ckpt', map_location="cpu")
+                ckpt = torch.load('./vqa_image_unimodal/best_epoch=18-val/the_metric=0.26.ckpt', map_location="cpu")
                 image_state_dict = ckpt["state_dict"]
+                print(f"image_state_dict.keys(): {image_state_dict.keys()}")
                 keys_to_remove = [key for key in image_state_dict.keys() if not key.startswith('vqa')]
                 for key in keys_to_remove:
                     image_state_dict.pop(key)
@@ -206,7 +208,8 @@ class FIBERTransformerSS(pl.LightningModule):
 
                 del image_state_dict, ckpt
 
-                ckpt = torch.load('./ckpts/text/1/best_epoch=54-val/the_metric=0.44.ckpt', map_location="cpu")
+                #ckpt = torch.load('./ckpts/text/1/best_epoch=54-val/the_metric=0.44.ckpt', map_location="cpu")
+                ckpt = torch.load('./vqa_text_unimodal/best_epoch=57-val/the_metric=0.44.ckpt', map_location="cpu")
                 text_state_dict = ckpt["state_dict"]
                 keys_to_remove = [key for key in text_state_dict.keys() if not key.startswith('vqa')]
                 for key in keys_to_remove:

@@ -1,4 +1,4 @@
 import torch
-foo = torch.tensor([1,2,3])
-foo = foo.to('cuda')
-print(foo)
+print(torch.__version__)
+print(torch.version.cuda)
+print(torch.cuda.is_available())
