@@ -39,7 +39,7 @@ config:
   mlm_prob: 0.15
   mlp_ratio: 4
   num_fuse_block: 6
-  num_gpus: 1
+  num_gpus: 4
   num_heads: 12
   num_layers: 12
   num_nodes: 1

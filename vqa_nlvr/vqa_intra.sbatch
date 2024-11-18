@@ -9,7 +9,7 @@
 #SBATCH --output=vqa_intra.out
 #SBATCH --error=vqa_intra-error.txt
 #SBATCH --mail-user=matthew.dong@nyu.edu
-#SBATCH --mail-type=FAIL
+#SBATCH --mail-type=ALL
 
 singularity exec --nv --overlay $SCRATCH/new_env/overlay-50G-10M.ext3:ro /scratch/work/public/singularity/cuda11.8.86-cudnn8.7-devel-ubuntu22.04.2.sif /bin/bash -c "
 source /ext3/miniconda3/etc/profile.d/conda.sh
